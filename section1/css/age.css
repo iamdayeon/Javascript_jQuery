@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+.btn{
+    margin-top: 50px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: turquoise;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid rgb(243, 75, 75) transparent;
+    padding: 5px;
+}
+.btn:hover{
+    color: snow;
+    background-color: steelblue;
+    border-color: teal;
+}
+.show{
+    margin-top: 50px;
+    padding: 20px 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}

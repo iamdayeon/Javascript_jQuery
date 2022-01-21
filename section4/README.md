@@ -170,10 +170,10 @@ console.log(result);
 #### • 폼 이벤트
 | 속성 | 설명 | 
 | --- | --- |
-| **change** | 목록이나 체크 상태 등이 변경되었을 때 이벤트가 발생한다.(<input>, <select>, <textarea>태그에서 사용) | 
+| **change** | 목록이나 체크 상태 등이 변경되었을 때 이벤트가 발생한다.(\<input\>, \<select\>, \<textarea\>태그에서 사용) | 
 | **input** | input 또는 textarea 요소의 값이 변경되었을 때   contenteditable 어트리뷰트를 가진 요소의 값이 변경되었을 때 | 
 | blur | 폼 요소에 포커스를 잃었을 때 이벤트가 발생한다. | 
-| focus | 폼 요소에 포커스가 놓였을 때 이벤트가 발생한다(<label>, <select>, <textarea>, <button>태그에서 사용) | 
+| focus | 폼 요소에 포커스가 놓였을 때 이벤트가 발생한다(\<label\>, \<select\>, \<textarea\>, \<button\>태그에서 사용) | 
 | reset | 폼이 다시 시작되었을 때 이벤트가 발생한다. | 
 | submit | submit 버튼을 눌렀을 때 이벤트가 발생한다. | 
 

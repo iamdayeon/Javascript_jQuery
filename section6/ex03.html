@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이머함수-3(clearInterval())</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #contents {
+            margin: 30px;
+            width: 200px;
+            height: 200px;
+            border: 5px solid blue;
+            font-size: 50px;
+            text-align: center;
+            line-height: 200px;
+            vertical-align: middle;
+        }
+        #stop {
+            font-size: 20px;
+            margin-left: 110px;
+        }
+    </style>
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var $contents = $("#contents");
+            var cnt = 0;
+            var timeID = 0;
+
+            //익명함수 풀이
+            // timeID = setInterval(function(){
+            //     cnt++;
+            //     $contents.text(cnt);  //text()를 이용하여 div영역에 출력을 하고 있다.
+            // }, 1000);  //단위가 밀리초이므로 현재는 1초다.
+
+            // $("#stop").click(function(){
+            //     alert("멈춤니다!");
+            //     clearInterval(timeID);
+            // });
+
+
+            //일반함수 풀이
+            function addCnt(){
+                cnt++;
+                $contents.text(cnt);
+            }
+            setInterval(addCnt, 1000);
+
+             $("#stop").click(function(){
+                alert("멈춤니다!");
+                clearInterval(timeID);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="contents">
+        0
+    </div>
+    <button id="stop">멈춤</button>
+</body>
+</html>

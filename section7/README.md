@@ -72,7 +72,7 @@ var len = str.length;    //5
 
 ### 1-3. 특정 위치의 문자 구하기
 - charAt()메서드를 이용하면 특정 위치의 문자를 구할 수 있다.   
-- 
+
 ```
 var str = “안녕하세요”;   
 var ch = str.charAt(2);    //하   

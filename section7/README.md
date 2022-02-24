@@ -1,6 +1,6 @@
 # [Javascript/jQuery]코어 라이브러리-2
 ## 1. String 클래스
-▶ String 클래스란?
+▶ String 클래스란? 
   - String클래스에는 문자열을 생성하는 기능을 시작으로 문자열과 관련된 유요한 기능이 있다.
 
 ▶ String클래스의 실무에서의 활용

@@ -153,20 +153,21 @@ var ch = str.charAt(2);    //하
 
 
 ### 2-1. 시간, 분, 초, 밀리초 알아내기
-  - Date클래스의 getHours(), getMinutes(), getSeconds(), getMilliseconds()를 이용하면 시간, 분, 초, 밀리초를 알아낸 수 있다.   
- ① getHours()
+- Date클래스의 getHours(), getMinutes(), getSeconds(), getMilliseconds()를 이용하면 시간, 분, 초, 밀리초를 알아낸 수 있다.   
+
+① getHours()
  ```
    var hours = Date인스턴스.getHours();   //리턴값은 0~23까지의 정수   
 ```
- ② getMinutes()
+② getMinutes()
  ```
    var minutes = Date인스턴스. getMinutes();   //리턴값은 0~59까지의 정수   
 ```
- ③ getSeconds()
+③ getSeconds()
  ```
    var seconds = Date인스턴스. getSeconds();   //리턴값은 0~59까지의 정수   
 ```
- ④ getMilliseconds()
+④ getMilliseconds()
  ```
    var mSeconds = Date인스턴스. getMilliseconds();   //리턴값은 0~999까지의 정수   
 ```

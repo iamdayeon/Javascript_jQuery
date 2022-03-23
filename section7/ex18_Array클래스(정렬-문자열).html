@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array클래스(정렬-문자열)</title>
+    <script>
+        var descNames = ["김정은","김효주","김창렬","김연아","한미미"];
+        document.write("실행 전 : " + descNames.join() + "<br/>");
+        //sort()는 문자(열)기반으로 오름차순 정렬
+        descNames.sort();  
+        document.write("정렬 후 : " + descNames.join() + "<br/>");
+
+        var ascNames = ["김정은","김효주","김창렬","김연아","한미미"];
+        document.write("실행 전 : " + ascNames.join() + "<br/>");
+        //문자(열)기반으로 내림차순으로 정렬을 하려면 아래처럼 정렬 기준을 제공해야한다.
+        ascNames.sort(function(a, b){
+            if(a > b) return -1;
+            if(a < b) return 1;
+        });
+        document.write("내림차순 정렬 후 : " + ascNames.join() + "<br/>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
